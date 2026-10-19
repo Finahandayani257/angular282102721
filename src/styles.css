@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add glob/* Membuat halaman login berada di tengah layar */
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  max-width: calc(100% - 30px);
+}
+app-root,
+app-admin,
+app-header,
+app-sidebar,
+app-content,
+app-footer {
+  display: contents;
+}
+
